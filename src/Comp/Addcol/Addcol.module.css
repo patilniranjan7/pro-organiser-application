@@ -1,0 +1,22 @@
+.box{
+    width: 200px;
+    height: fit-content;
+    border: double;
+    margin: 20px;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.name{
+    padding-left: 10px;
+    width: 170px;
+}
+.right{
+    float: right;
+}
+.head{
+    width: 200;
+    display: flex;
+}

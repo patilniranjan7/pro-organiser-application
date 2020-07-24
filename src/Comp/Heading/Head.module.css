@@ -1,0 +1,41 @@
+.header {
+  background-color: rgb(8, 124, 234);
+  width: 100%;
+  text-align: left;
+  height: 60px;
+  display: flex;
+}
+
+.fr {
+  margin-top: 8px;
+  float: right;
+  padding-left: 10%;
+  width: 80%;
+  color: aliceblue;
+}
+.float {
+ display: flex;
+   text-decoration: none;
+}
+.content {
+ margin-top: 10px;
+  color: black;
+float: left;
+  text-decoration: none;
+  padding: 5px;
+  
+}
+.content1 {
+  padding: 5px;
+   margin-top: 10px;
+  color: black;
+  float: right;
+  text-decoration: none;
+
+}
+
+.highlight {
+  background-color: rgb(78, 138, 228);
+  text-decoration: none;
+  float: left;
+}
