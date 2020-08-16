@@ -1,0 +1,109 @@
+.Container {
+  margin: 20px 50px;
+}
+.Head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.Heading {
+  font-size: x-large;
+  font-weight: ;
+  text-transform: uppercase;
+  color: rgb(43, 137, 226);
+}
+.AddColumn {
+  border: 0.5px grey dashed;
+  border-radius: 5px;
+  width: 180px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  margin: 10px 10px;
+}
+.ColumnContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.Column {
+  margin: 5px;
+  width: 200px;
+  height: fit-content;
+   box-shadow: 3px 3px 10px 0px rgba(112, 106, 112, 0.72);
+  border-radius: 5px;
+  background-color: rgb(230, 223, 223);
+  justify-content: center;
+  margin-right: 15px;
+  margin: 8px;
+}
+.ColumnHead {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+.DeleteBin {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.CardContainer > span {
+  margin: 0 auto;
+}
+.Card {
+  width: border-box;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  box-shadow: 3px 5px 10px 2px rgba(112, 106, 112, 0.72);
+  margin: 8px;
+}
+.Title {
+  display: flex;
+  justify-content: space-between;
+}
+.MemberContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ViewButton {
+  width: 30px;
+  height: 30px;
+}
+.ViewButton:hover {
+  cursor: pointer;
+}
+.MemberIcon {
+  border-radius: 50%;
+  padding: 0 3px;
+  background-color: rgb(201, 197, 197);
+}
+.AddCard {
+  width: border-box;
+  background-color: rgb(228, 228, 228);
+  padding: 5px 30px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 5px 10px 2px rgba(148, 146, 148, 0.72);
+  margin: 8px;
+  text-align: center;
+  border: rgb(3, 3, 3) 0.1px solid;
+  margin-bottom: 15px;
+}
+.AddCard:hover {
+  cursor: pointer;
+  color: rgb(5, 5, 5);
+  background-color: rgb(255, 255, 255);
+  border: rgb(0, 0, 0) 0.1px solid;
+}

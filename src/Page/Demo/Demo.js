@@ -3,7 +3,7 @@ import axios from "axios";
 import CSS from "./Demo.module.css";
 import Modal from "react-bootstrap/Modal";
 import Button from 'react-bootstrap/Button';
-import Addcolumn from "../../Comp/Addcol/Addcolumn"
+import Addcolumn from "../../Comp/Addcol/AddColu"
 // axios 
   //     .get(`https://pro-or.firebaseio.com/.json`)
 // axios.delete(`https://pro-or.firebaseio.com/${store}.json`);
@@ -17,6 +17,7 @@ function Demo(props){
 
 
 useEffect(() => {
+  setboard("");
   axios
       .get(`https://pro-or.firebaseio.com/${nam}.json`)
       .then((res)=>  
@@ -56,9 +57,10 @@ useEffect(() => {
                name : name// column name 
             }
           );
+      setupdate((n) =>n+1);
       set();
     }  
-    setupdate((n) =>n+1);
+    
  }
   return(
   <>

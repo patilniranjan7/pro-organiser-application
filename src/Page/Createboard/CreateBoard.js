@@ -6,7 +6,8 @@ import {useState} from "react"
 function CreateBoard() {
   const [val,setval]=useState(false);
   const [val1,setval1]= useState(false);
-  function fake(){
+  function fake()
+  {
      return val1?(<div className={css.center} > <button className={css.color} >fill all data </button></div>):(<div></div>);
   }
  function np(){
@@ -26,9 +27,9 @@ function CreateBoard() {
     else{
       axios
     .post(`https://pro-or.firebaseio.com/.json`, {
-      name: name,
-      team: team,
-      type: type,
+      Name: name,
+      Team: team,
+      Type: type,
     });
      setval1(false);
      setval(true);

@@ -51,6 +51,11 @@ input{
   padding-left: 10px;
 }
 
-button {
-
+.Container {
+  margin: 20px 50px;
+}
+.Heading {
+  font-size: larger;
+  font-weight: 200;
+  color: rgb(43, 137, 226);
 }
