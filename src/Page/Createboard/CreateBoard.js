@@ -71,7 +71,7 @@ function CreateBoard() {
           />
         </div>
         <div >
-          <button className={css.btn} type="submit">Create</button>
+          <button className={css.btn} id="CreateBoard" type="submit">Create</button>
         </div>
           {np()}
           {fake()}
